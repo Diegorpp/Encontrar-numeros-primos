@@ -204,15 +204,15 @@ int verifica_primo(int numero)
 void valores_padroes()
 {
 	printf("O programa se inicia com os respectivos valores iniciais\n");
-	printf("#########################\n");
-	printf("# Linhas:\t %d\n", LINHA);
-	printf("# Colunas:\t %d\n", COLUNA);
-	printf("# Seed\t\t %d\n", SEMENTE);
+	printf("################################\n");
+	printf("# Linhas:\t\t %d\n", LINHA);
+	printf("# Colunas:\t\t %d\n", COLUNA);
+	printf("# Seed\t\t\t %d\n", SEMENTE);
 	printf("# Linha Macroblocos\t %d\n", L_MACRO);
 	printf("# Coluna Macroblocos\t %d\n", C_MACRO);
-	printf("# Threads\t %d\n", NUM_THREAD);
-	printf("# Tam Blocos\t %d\n", TAM_MACROBLOCO);
-	printf("#########################\n\n");
+	printf("# Threads\t\t %d\n", NUM_THREAD);
+	printf("# Tam Blocos\t\t %d\n", TAM_MACROBLOCO);
+	printf("################################\n\n");
 }
 
 int menu()

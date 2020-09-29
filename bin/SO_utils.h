@@ -7,12 +7,12 @@
 //Come�o das defini��o das vari�ves globais.
 #define LINHA 10000 											  //Define uma o n�mero de linhas que sua matriz vai ter .
 #define COLUNA 20000											  //Define o n�mero de colunas que sua matriz vai ter .
-#define SEMENTE 6415										  //Define uma semente para que o srand possa ser o sempre o mesmo nos testes.
+#define SEMENTE 6414										  //Define uma semente para que o srand possa ser o sempre o mesmo nos testes.
 #define L_MACRO 100											  //Define o n�mero de macroblocos que tera no programa.
 #define C_MACRO 10											  //Define o n�mero de macroblocos que tera no programa.
 #define NUM_THREAD 100										  //Define o n�mero de threads que iram ser criadas.
 #define TAM_MACROBLOCO (LINHA * COLUNA) / (L_MACRO * C_MACRO) // Calcula numero de macroblocos
-#define MAX_VALOR_ALEATORIO 4								  //Define que o srand s� poder� gerar n�mero de 0 a 30000.
+#define MAX_VALOR_ALEATORIO 1000								  //Define que o srand s� poder� gerar n�mero de 0 a 30000.
 
 struct att_macrobloco
 { // Estrutura necess�ria para enviar o inicio dos macroblocos para as threads.

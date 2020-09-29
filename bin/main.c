@@ -52,10 +52,10 @@ int main()
 
 
 		printf("\n\n");
-		printf("############# RESULTADO ################\n");
-		printf("#       Numero de primos %d            #\n", num_primos);
-		printf("#    Tempo para contagem %.2lf ms      #\n", tempo_gasto);
-		printf("########################################\n\n");
+		printf("################## RESULTADO ####################\n");
+		printf("#            Numero de primos %d\t\t#\n", num_primos);
+		printf("#         Tempo para contagem %.2lf ms\t\t#\n", tempo_gasto);
+		printf("#################################################\n\n");
 		num_primos = 0;
 		tempo_gasto = 0;
 	}
